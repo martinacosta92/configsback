@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: playlist-service
+    name: catalog-service
 
 eureka:
   client:
