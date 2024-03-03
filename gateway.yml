@@ -10,10 +10,10 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: playlistRoute
-          uri: lb://playlist-service/
+        - id: catalogRoute
+          uri: lb://catalog-service/
           predicates:
-            - Path=/playlist/**
+            - Path=/catalog/**
 
 
 eureka:
